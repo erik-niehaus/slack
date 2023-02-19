@@ -13,9 +13,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
+	"github.com/erik-niehaus/slack/internal/backoff"
+	"github.com/erik-niehaus/slack/internal/timex"
 	"github.com/slack-go/slack"
-	"github.com/slack-go/slack/internal/backoff"
-	"github.com/slack-go/slack/internal/timex"
 	"github.com/slack-go/slack/slackevents"
 )
 

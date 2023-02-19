@@ -1,4 +1,4 @@
-module github.com/slack-go/slack
+module github.com/erik-niehaus/slack
 
 go 1.16
 
@@ -8,5 +8,6 @@ require (
 	github.com/google/go-cmp v0.5.7
 	github.com/gorilla/websocket v1.4.2
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/slack-go/slack v0.12.1 // indirect
 	github.com/stretchr/testify v1.2.2
 )
